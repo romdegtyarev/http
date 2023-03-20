@@ -1,139 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <title>romdegtyarev</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <style>
-        * {
-            margin: 0;
-        }
-
-        #page {
-            width: 100%;
-            background-color: #1b181a;
-        }
-
-        h1 {
-            font-size: 30px;
-            color: #53c000;
-            font-family: Hack;
-            text-align: center;
-        }
-
-        p {
-            font-size: 20px;
-            color: #53c000;
-            font-family: Hack;
-            text-align: center;
-        }
-
-        p1 {
-            font-size: 20px;
-            color: #E701DC;
-            font-family: Hack;
-            text-align: center;
-        }
-
-        p2 {
-            font-size: 20px;
-            color: #FFF6A7;
-            font-family: Hack;
-            text-align: center;
-        }
-
-        p3 {
-            font-size: 20px;
-            color: #53D71A;
-            font-family: Hack;
-            text-align: center;
-        }
-
-        p4 {
-            font-size: 20px;
-            color: #D5D0CA;
-            font-family: Hack;
-            text-align: center;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        header {
-            background-color: #1b181a;
-            min-height: 10vh;
-        }
-
-        section {
-            background-color: #1b181a;
-            min-height: 80vh;
-            float: left;
-            padding: 5px;
-        }
-
-        footer {
-            background-color: #1b181a;
-            min-height: 10vh;
-            clear: both;
-            padding: 5px;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<title>romdegtyarev</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/my.css">
+	<script src="js/index.js"></script>
 </head>
 
 <body>
-    <div id="page">
-        <header>
-            <h1>romdegtyarev</h1>
-        </header>
+<div id="page">
+	<section>
 
-        <section>
-            <h1>romdegtyarev page</h1><br />
+		<button id="defaultOpen" class="tabLink" onclick="openTabContent('Home')">Main</button>
+		<button class="tabLink" onclick="openTabContent('MovieList')">My movie list</button>
+		<button class="tabLink" onclick="openTabContent('Contact')">Contact</button>
 
-            <p1>#include </p1>
-            <p2>&#60;stdio.h&#62;</p2>
-            <br /><br />
+		<div id="Home" class="tabContent">
+			<h1>Bonjour, je m'appelle Romain. Je suis ingénieur logiciel. J'aime voyager, faire du vélo, regarder la
+				formule 1, faire du crossfit et je suis un grand fan de Lego.</h1>
+		</div>
 
-            <p1>int </p1>
-            <p3>main</p3>
-            <p4>(</p4>
-            <p1>void</p1>
-            <p4>) {</p4>
-            <br />
+		<div id="MovieList" class="tabContent">
+			<button id="BestMovieListCollapsible"
+					class="collapsible"
+					onclick="openCollapsibleContent('BestMovieListCollapsible',
+													 'BestMovieListCollapsibleContent',
+													 './movie/BestMovieList.json')">My top
+			</button>
+			<div id="BestMovieListCollapsibleContent" class="collapsibleContent"></div>
 
-            <p4>&#160;&#160;&#160;&#160;</p4>
-            <p3>printf</p3>
-            <p4>(</p4>
-            <p2>"Hello, world!\n"</p2>
-            <p4>)</p4>
-            <p1>;</p1>
-            <br />
+			<button id="2023MovieListCollapsible"
+					class="collapsible"
+					onclick="openCollapsibleContent('2023MovieListCollapsible',
+													 '2023MovieListCollapsibleContent',
+													 './movie/2023MovieList.json')">2023
+			</button>
+			<div id="2023MovieListCollapsibleContent" class="collapsibleContent"></div>
 
-            <p4>&#160;&#160;&#160;&#160;</p4>
-            <p1>return </p1>
-            <p4>0</p4>
-            <p1>;</p1>
-            <br />
+			<button id="2022MovieListCollapsible"
+					class="collapsible"
+					onclick="openCollapsibleContent('2022MovieListCollapsible',
+													 '2022MovieListCollapsibleContent',
+													 './movie/2022MovieList.json')">2022
+			</button>
+			<div id="2022MovieListCollapsibleContent" class="collapsibleContent"></div>
 
-            <p4>}</p4>
-            <br />
-            <br />
-            <br />
+			<button id="2021MovieListCollapsible"
+					class="collapsible"
+					onclick="openCollapsibleContent('2021MovieListCollapsible',
+													 '2021MovieListCollapsibleContent',
+													 './movie/2021MovieList.json')">2021
+			</button>
+			<div id="2021MovieListCollapsibleContent" class="collapsibleContent"></div>
 
-            <h1>Bonjour, je m'appelle Romain. Je suis ingénieur logiciel. J'aime voyager, faire du vélo, regarder la formule 1, faire du crossfit et je suis un grand fan de Lego.</h1><br />
-        </section>
+			<button id="2020MovieListCollapsible"
+					class="collapsible"
+					onclick="openCollapsibleContent('2020MovieListCollapsible',
+													 '2020MovieListCollapsibleContent',
+													 './movie/2020MovieList.json')">2020
+			</button>
+			<div id="2020MovieListCollapsibleContent" class="collapsibleContent"></div>
 
-        <footer>
-            <a href="https://github.com/romdegtyarev/">GitHub</a>
-            <a href="https://www.linkedin.com/in/romdegtyarev/">LinkedIn</a>
-            <a href="https://www.youtube.com/@romdegtyarev/">YouTube</a>
-            <a href="https://www.reddit.com/user/romdegtyarev/">Reddit</a>
-            <a href="https://www.instagram.com/romdegtyarev/">Inst</a>
-            <a href="https://twitter.com/romdegtyarev/">Twitter</a>
-           <p>romdegtyarev page</p>
-        </footer>
-    </div>
+			<button id="2019MovieListCollapsible"
+					class="collapsible"
+					onclick="openCollapsibleContent('2019MovieListCollapsible',
+													 '2019MovieListCollapsibleContent',
+													 './movie/2019MovieList.json')">2019
+			</button>
+			<div id="2019MovieListCollapsibleContent" class="collapsibleContent"></div>
+
+			<button id="2018MovieListCollapsible"
+					class="collapsible"
+					onclick="openCollapsibleContent('2018MovieListCollapsible',
+													 '2018MovieListCollapsibleContent',
+													 './movie/2018MovieList.json')">2018
+			</button>
+			<div id="2018MovieListCollapsibleContent" class="collapsibleContent"></div>
+		</div>
+
+		<div id="Contact" class="tabContent">
+			<ul>
+				<li><a href="https://github.com/romdegtyarev/">GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/romdegtyarev/">LinkedIn</a></li>
+				<li><a href="https://www.youtube.com/@romdegtyarev/">YouTube</a></li>
+				<li><a href="https://www.reddit.com/user/romdegtyarev/">Reddit</a></li>
+				<li><a href="https://www.instagram.com/romdegtyarev/">Inst</a></li>
+				<li><a href="https://twitter.com/romdegtyarev/">Twitter</a></li>
+			</ul>
+		</div>
+
+	</section>
+
+	<footer>
+		<p>romdegtyarev page</p>
+	</footer>
+</div>
 </body>
+
+<script>
+	document.getElementById("defaultOpen").click();
+</script>
 
 </html>
