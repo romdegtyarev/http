@@ -6,7 +6,7 @@
 	<title>romdegtyarev</title>
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/my.css">
-	<script src="js/index.js"></script>
+	<script src="js/my.js"></script>
 </head>
 
 <body>
@@ -15,6 +15,7 @@
 
 		<button id="defaultOpen" class="tabLink" onclick="openTabContent('Home')">Main</button>
 		<button class="tabLink" onclick="openTabContent('MovieList')">My movie list</button>
+		<button class="tabLink" onclick="openTabContent('Travel')">Travel</button>
 		<button class="tabLink" onclick="openTabContent('Contact')">Contact</button>
 
 		<div id="Home" class="tabContent">
@@ -26,70 +27,83 @@
 			<button id="BestMovieListCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('BestMovieListCollapsible',
-													 'BestMovieListCollapsibleContent',
-													 './movie/BestMovieList.json')">My top
+													'BestMovieListCollapsibleContent',
+													'./movie/BestMovieList.json')">My top
 			</button>
 			<div id="BestMovieListCollapsibleContent" class="collapsibleContent"></div>
 
 			<button id="2023MovieListCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('2023MovieListCollapsible',
-													 '2023MovieListCollapsibleContent',
-													 './movie/2023MovieList.json')">2023
+													'2023MovieListCollapsibleContent',
+													'./movie/2023MovieList.json')">2023
 			</button>
 			<div id="2023MovieListCollapsibleContent" class="collapsibleContent"></div>
 
 			<button id="2022MovieListCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('2022MovieListCollapsible',
-													 '2022MovieListCollapsibleContent',
-													 './movie/2022MovieList.json')">2022
+													'2022MovieListCollapsibleContent',
+													'./movie/2022MovieList.json')">2022
 			</button>
 			<div id="2022MovieListCollapsibleContent" class="collapsibleContent"></div>
 
 			<button id="2021MovieListCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('2021MovieListCollapsible',
-													 '2021MovieListCollapsibleContent',
-													 './movie/2021MovieList.json')">2021
+													'2021MovieListCollapsibleContent',
+													'./movie/2021MovieList.json')">2021
 			</button>
 			<div id="2021MovieListCollapsibleContent" class="collapsibleContent"></div>
 
 			<button id="2020MovieListCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('2020MovieListCollapsible',
-													 '2020MovieListCollapsibleContent',
-													 './movie/2020MovieList.json')">2020
+													'2020MovieListCollapsibleContent',
+													'./movie/2020MovieList.json')">2020
 			</button>
 			<div id="2020MovieListCollapsibleContent" class="collapsibleContent"></div>
 
 			<button id="2019MovieListCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('2019MovieListCollapsible',
-													 '2019MovieListCollapsibleContent',
-													 './movie/2019MovieList.json')">2019
+													'2019MovieListCollapsibleContent',
+													'./movie/2019MovieList.json')">2019
 			</button>
 			<div id="2019MovieListCollapsibleContent" class="collapsibleContent"></div>
 
 			<button id="2018MovieListCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('2018MovieListCollapsible',
-													 '2018MovieListCollapsibleContent',
-													 './movie/2018MovieList.json')">2018
+													'2018MovieListCollapsibleContent',
+													'./movie/2018MovieList.json')">2018
 			</button>
 			<div id="2018MovieListCollapsibleContent" class="collapsibleContent"></div>
+		</div>
+
+		<div id="Travel" class="tabContent">
+			<button id="PlacesCollapsibleContent"
+					class="collapsible"
+					onclick="openCollapsibleContent('PlacesCollapsibleContent',
+													'PlacesCollapsibleContent',
+													'./travel/Places.json')">2018
+			</button>
+			<div id="PlacesCollapsibleContent" class="collapsibleContent"></div>
 		</div>
 
 		<div id="Contact" class="tabContent">
 			<ul>
 				<li><a href="https://github.com/romdegtyarev/">GitHub</a></li>
 				<li><a href="https://www.linkedin.com/in/romdegtyarev/">LinkedIn</a></li>
+				<li><a href="https://twitter.com/romdegtyarev/">Twitter</a></li>
+				<li><a href="https://www.instagram.com/romdegtyarev/">Inst</a></li>
 				<li><a href="https://www.youtube.com/@romdegtyarev/">YouTube</a></li>
 				<li><a href="https://www.reddit.com/user/romdegtyarev/">Reddit</a></li>
-				<li><a href="https://www.instagram.com/romdegtyarev/">Inst</a></li>
-				<li><a href="https://twitter.com/romdegtyarev/">Twitter</a></li>
+				<li><a href="https://www.tripadvisor.ru/Profile/romdegtyarev/">Trip</a></li>
+				<li><a href="mailto:romdegtyarev@romdegtyarev.su, romdegtyarev@romdegtyarev.su">Send email</a></li>
 			</ul>
 		</div>
+
 
 	</section>
 
@@ -99,9 +113,32 @@
 </div>
 </body>
 
+
 <script>
 	document.getElementById("defaultOpen").click();
 </script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function(m,e,t,r,i,k,a) {m[i] = m[i] || function() {(m[i].a = m[i].a || []).push(arguments)};
+		m[i].l = 1 * new Date();
+		for (var j = 0; j < document.scripts.length; j++) {
+			if (document.scripts[j].src === r) {
+				return;
+			}
+		}
+		k=e.createElement(t), a=e.getElementsByTagName(t)[0], k.async=1, k.src=r, a.parentNode.insertBefore(k, a)})
+
+	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	ym(93887984, "init", {
+		clickmap:true,
+		trackLinks:true,
+		accurateTrackBounce:true
+	});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/93887984" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 </html>
 

@@ -38,13 +38,13 @@ function arrayParse(jsonArray, idCollapsibleContent) {
     var out = "<ul>";
     var i;
     var position;
-    for (i = 0; i < jsonArray.year.length; i++) {
+    for (i = 0; i < jsonArray.entry.length; i++) {
         position = i + 1;
-        out += '<li>' + position + '. ' + jsonArray.year[i].name + '</li>';
+        out += '<li>' + position + '. ' + jsonArray.entry[i].name + '</li>';
     }
     out += "</ul>";
     /*
-    console.log("Len: ", json_array.year.length, " Arr: ", out);
+    console.log("Len: ", json_array.entry.length, " Arr: ", out);
     */
     document.getElementById(idCollapsibleContent).innerHTML = out;
 }
