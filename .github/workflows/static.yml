@@ -16,5 +16,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Replace
+        run: cp -r /home/webuser/actions-runner/_work/http/http/www/ /home/webuser/http/
       - name: Test
         run: echo "Done!"
