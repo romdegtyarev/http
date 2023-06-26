@@ -1,12 +1,425 @@
 {
     "entry": [
-        {
-            "num": "1",
-            "name": "Казахстан",
-            "link": "",
-            "country": "Казахстан",
-            "city": "Семипалатинск"
-        }
+      {
+        "num": 1,
+        "name": "Republic of Kazakhstan, Semey (Semipalatinsk)",
+        "link": "https://en.wikipedia.org/wiki/Semey",
+        "country": "Republic of Kazakhstan",
+        "city": "Semey (Semipalatinsk)"
+      },
+      {
+        "num": 2,
+        "name": "Republic of Kazakhstan, Shulbinsk",
+        "link": "",
+        "country": "Republic of Kazakhstan",
+        "city": "Shulbinsk"
+      },
+      {
+        "num": 3,
+        "name": "Republic of Kazakhstan, Oskemen (Ust-Kamenogorsk)",
+        "link": "",
+        "country": "Republic of Kazakhstan",
+        "city": "Oskemen (Ust-Kamenogorsk)"
+      },
+      {
+        "num": 4,
+        "name": "Republic of Kazakhstan, New Bukhtarma",
+        "link": "",
+        "country": "Republic of Kazakhstan",
+        "city": "New Bukhtarma"
+      },
+      {
+        "num": 5,
+        "name": "Republic of Kazakhstan, Almaty",
+        "link": "",
+        "country": "Republic of Kazakhstan",
+        "city": "Almaty"
+      },
+      {
+        "num": 6,
+        "name": "Russian Federation, Novosibirsk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Novosibirsk"
+      },
+      {
+        "num": 7,
+        "name": "Russian Federation, Sheregesh",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Sheregesh"
+      },
+      {
+        "num": 8,
+        "name": "Russian Federation, Tomsk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Tomsk"
+      },
+      {
+        "num": 9,
+        "name": "Russian Federation, Barnaul",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Barnaul"
+      },
+      {
+        "num": 10,
+        "name": "Russian Federation, Omsk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Omsk"
+      },
+      {
+        "num": 11,
+        "name": "Republic of Kazakhstan, Karaganda",
+        "link": "",
+        "country": "Republic of Kazakhstan",
+        "city": "Karaganda"
+      },
+      {
+        "num": 12,
+        "name": "Republic of Kazakhstan, Astana",
+        "link": "",
+        "country": "Republic of Kazakhstan",
+        "city": "Astana"
+      },
+      {
+        "num": 13,
+        "name": "Russian Federation, Belovo",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Belovo"
+      },
+      {
+        "num": 14,
+        "name": "Russian Federation, Trudarmeiskii",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Trudarmeiskii"
+      },
+      {
+        "num": 15,
+        "name": "Russian Federation, Krasnobrodsky",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Krasnobrodsky"
+      },
+      {
+        "num": 16,
+        "name": "Russian Federation, Sosnovka",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Sosnovka"
+      },
+      {
+        "num": 17,
+        "name": "Kingdom of Thailand, Pattaya",
+        "link": "",
+        "country": "Kingdom of Thailand",
+        "city": "Pattaya"
+      },
+      {
+        "num": 18,
+        "name": "Kingdom of Thailand, Sai Yok National Park",
+        "link": "",
+        "country": "Kingdom of Thailand",
+        "city": "Sai Yok National Park"
+      },
+      {
+        "num": 19,
+        "name": "Russian Federation, Moscow",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Moscow"
+      },
+      {
+        "num": 20,
+        "name": "Republic of Poland, Warsaw",
+        "link": "",
+        "country": "Republic of Poland",
+        "city": "Warsaw"
+      },
+      {
+        "num": 21,
+        "name": "Federal Republic of Germany, Berlin",
+        "link": "",
+        "country": "Federal Republic of Germany",
+        "city": "Berlin"
+      },
+      {
+        "num": 22,
+        "name": "Federal Republic of Germany, Bielefeld",
+        "link": "",
+        "country": "Federal Republic of Germany",
+        "city": "Bielefeld"
+      },
+      {
+        "num": 23,
+        "name": "Kingdom of the Netherlands, Amsterdam",
+        "link": "",
+        "country": "Kingdom of the Netherlands",
+        "city": "Amsterdam"
+      },
+      {
+        "num": 24,
+        "name": "Kingdom of Belgium, The City of Brussels",
+        "link": "",
+        "country": "Kingdom of Belgium",
+        "city": "The City of Brussels"
+      },
+      {
+        "num": 25,
+        "name": "French Republic, Paris",
+        "link": "",
+        "country": "French Republic",
+        "city": "Paris"
+      },
+      {
+        "num": 26,
+        "name": "Grand Duchy of Luxembourg, Luxembourg",
+        "link": "",
+        "country": "Grand Duchy of Luxembourg",
+        "city": "Luxembourg"
+      },
+      {
+        "num": 27,
+        "name": "Federal Republic of Germany, Trier",
+        "link": "",
+        "country": "Federal Republic of Germany",
+        "city": "Trier"
+      },
+      {
+        "num": 28,
+        "name": "Federal Republic of Germany, Dresden",
+        "link": "",
+        "country": "Federal Republic of Germany",
+        "city": "Dresden"
+      },
+      {
+        "num": 29,
+        "name": "Russian Federation, Novokuznetsk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Novokuznetsk"
+      },
+      {
+        "num": 30,
+        "name": "Russian Federation, Saint Petersburg",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Saint Petersburg"
+      },
+      {
+        "num": 31,
+        "name": "Russian Federation, Gvardeysk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Gvardeysk"
+      },
+      {
+        "num": 32,
+        "name": "Russian Federation, Pravdinsk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Pravdinsk"
+      },
+      {
+        "num": 33,
+        "name": "Russian Federation, Chernyakhovsk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Chernyakhovsk"
+      },
+      {
+        "num": 34,
+        "name": "Russian Federation, Ozyorsk, Kaliningrad Oblast",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Ozyorsk, Kaliningrad Oblast"
+      },
+      {
+        "num": 35,
+        "name": "Russian Federation, Gusev, Kaliningrad Oblast",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Gusev, Kaliningrad Oblast"
+      },
+      {
+        "num": 36,
+        "name": "Russian Federation, Neman",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Neman"
+      },
+      {
+        "num": 37,
+        "name": "Russian Federation, Sovetsk, Kaliningrad Oblast",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Sovetsk, Kaliningrad Oblast"
+      },
+      {
+        "num": 38,
+        "name": "Russian Federation, Zelenogradsk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Zelenogradsk"
+      },
+      {
+        "num": 39,
+        "name": "Russian Federation, Baltiysk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Baltiysk"
+      },
+      {
+        "num": 40,
+        "name": "Russian Federation, Kaliningrad",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Kaliningrad"
+      },
+      {
+        "num": 41,
+        "name": "Russian Federation, Vyborg",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Vyborg"
+      },
+      {
+        "num": 42,
+        "name": "Montenegro, Budva",
+        "link": "",
+        "country": "Montenegro",
+        "city": "Budva"
+      },
+      {
+        "num": 43,
+        "name": "Bosnia and Herzegovina, Sarajevo",
+        "link": "",
+        "country": "Bosnia and Herzegovina",
+        "city": "Sarajevo"
+      },
+      {
+        "num": 44,
+        "name": "Montenegro, Podgorica",
+        "link": "",
+        "country": "Montenegro",
+        "city": "Podgorica"
+      },
+      {
+        "num": 45,
+        "name": "Montenegro, Sveti Stefan",
+        "link": "",
+        "country": "Montenegro",
+        "city": "Sveti Stefan"
+      },
+      {
+        "num": 46,
+        "name": "Montenegro, Petrovac",
+        "link": "",
+        "country": "Montenegro",
+        "city": "Petrovac"
+      },
+      {
+        "num": 47,
+        "name": "Montenegro, Bar",
+        "link": "",
+        "country": "Montenegro",
+        "city": "Bar"
+      },
+      {
+        "num": 48,
+        "name": "Bosnia and Herzegovina, Trebinje",
+        "link": "",
+        "country": "Bosnia and Herzegovina",
+        "city": "Trebinje"
+      },
+      {
+        "num": 49,
+        "name": "Montenegro, Tivat",
+        "link": "",
+        "country": "Montenegro",
+        "city": "Tivat"
+      },
+      {
+        "num": 50,
+        "name": "Republic of Serbia, Belgrade",
+        "link": "",
+        "country": "Republic of Serbia",
+        "city": "Belgrade"
+      },
+      {
+        "num": 51,
+        "name": "Montenegro, Kotor",
+        "link": "",
+        "country": "Montenegro",
+        "city": "Kotor"
+      },
+      {
+        "num": 52,
+        "name": "Georgia, Batumi",
+        "link": "",
+        "country": "Georgia",
+        "city": "Batumi"
+      },
+      {
+        "num": 53,
+        "name": "Republic of Kazakhstan, Pavlodar",
+        "link": "",
+        "country": "Republic of Kazakhstan",
+        "city": "Pavlodar"
+      },
+      {
+        "num": 54,
+        "name": "Russian Federation, Rubtsovsk",
+        "link": "",
+        "country": "Russian Federation",
+        "city": "Rubtsovsk"
+      },
+      {
+        "num": 55,
+        "name": "Kingdom of Thailand, Bangkok",
+        "link": "",
+        "country": "Kingdom of Thailand",
+        "city": "Bangkok"
+      },
+      {
+        "num": 56,
+        "name": "Republic of Belarus, Brest",
+        "link": "",
+        "country": "Republic of Belarus",
+        "city": "Brest"
+      },
+      {
+        "num": 57,
+        "name": "Kingdom of Belgium, Waterloo",
+        "link": "",
+        "country": "Kingdom of Belgium",
+        "city": "Waterloo"
+      },
+      {
+        "num": 58,
+        "name": "French Republic, Woippy",
+        "link": "",
+        "country": "French Republic",
+        "city": "Woippy"
+      },
+      {
+        "num": 59,
+        "name": "Federal Republic of Germany, Weimar",
+        "link": "",
+        "country": "Federal Republic of Germany",
+        "city": "Weimar"
+      },
+      {
+        "num": 60,
+        "name": "Republic of Türkiye, Istanbul",
+        "link": "",
+        "country": "Republic of Türkiye",
+        "city": "Istanbul"
+      }
     ]
 }
 
