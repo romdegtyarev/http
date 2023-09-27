@@ -67,6 +67,7 @@ a {
     height: auto;
     border: none;
     outline: none;
+    border-radius: 6px;
 }
 
 /*  */
@@ -93,6 +94,7 @@ a {
     height: auto;
     border: none;
     outline: none;
+    border-radius: 6px;
 }
 
 /*  */
