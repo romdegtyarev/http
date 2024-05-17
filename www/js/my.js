@@ -21,6 +21,12 @@ function openCollapsibleContent(idCollapsible, idCollapsibleContent, json) {
     }
 }
 
+function datatexfill(idtextdata, json) {
+    var content = document.getElementById(idtextdata);
+    content.style.maxHeight = "100%";
+    getData(idtextdata, json);
+}
+
 function getData(idCollapsibleContent, json) {
     var xmlHttp = new XMLHttpRequest();
     var url = json;
@@ -43,9 +49,6 @@ function arrayParse(jsonArray, idCollapsibleContent) {
         out += '<li>' + position + '. ' + jsonArray.entry[i].name + '</li>';
     }
     out += "</ul>";
-    /*
-    console.log("Len: ", json_array.entry.length, " Arr: ", out);
-    */
     document.getElementById(idCollapsibleContent).innerHTML = out;
 }
 
