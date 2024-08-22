@@ -15,27 +15,31 @@
 
 		<button id="defaultOpen" class="tabLink" onclick="openTabContent('Home')">Main</button>
 		<button class="tabLink" onclick="openTabContent('MovieList')">My movie list</button>
+		<button class="tabLink" onclick="openTabContent('MusicList')">My music list</button>
 		<button class="tabLink" onclick="openTabContent('Travel')">Travel</button>
 		<button class="tabLink" onclick="openTabContent('Contact')">Contact</button>
 
 		<div id="Home" class="tabContent">
 			<h1>Bonjour, je m'appelle Romain. Je suis ingénieur logiciel. J'aime voyager, faire du vélo, regarder la
 				formule 1, faire du crossfit et je suis un grand fan de Lego.</h1>
-			<h1>My music</h1>
-			<div class="split left">
-				<button id="LastTracksContentButton"
-						class="collapsible"
-						onclick="datatexfill('LastTracksContent', './music/last.json')">Last
-				</button>
-				<div id="LastTracksContent" class="collapsibleContent"></div>
-			</div>
-			<div class="split right">
-				<button id="TopTracksContentButton"
-						class="collapsible"
-						onclick="datatexfill('TopTracksContent', './music/top.json')">Top
-				</button>
-				<div id="TopTracksContent" class="collapsibleContent"></div>
-			</div>
+		</div>
+
+		<div id="MusicList" class="tabContent">
+			<button id="LastTracksContentButton"
+					class="collapsible"
+					onclick="openCollapsibleContent('LastTracksContentButton',
+								'LastTracksContent',
+								'./music/last.json')">My last played
+			</button>
+			<div id="LastTracksContent" class="collapsibleContent"></div>
+
+			<button id="TopTracksContentButton"
+					class="collapsible"
+					onclick="openCollapsibleContent('TopTracksContentButton',
+								'TopTracksContent',
+								'./music/top.json')">My top played
+			</button>
+			<div id="TopTracksContent" class="collapsibleContent"></div>
 		</div>
 
 		<div id="MovieList" class="tabContent">
