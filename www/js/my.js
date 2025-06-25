@@ -1,3 +1,6 @@
+let translations = {};
+let currentLang = 'en';
+
 function openTabContent(id) {
     var i, tabContent, tabLinks;
     tabContent = document.getElementsByClassName("tabContent");
@@ -52,3 +55,25 @@ function arrayParse(jsonArray, idCollapsibleContent) {
     document.getElementById(idCollapsibleContent).innerHTML = out;
 }
 
+function setLanguage(lang) {
+	currentLang = lang;
+	fetch(`./lang/${lang}.json`)
+		.then(res => res.json())
+		.then(data => {
+			translations = data;
+			updateTranslations();
+		});
+}
+
+function updateTranslations() {
+	document.querySelectorAll('[data-i18n]').forEach(elem => {
+		const key = elem.getAttribute('data-i18n');
+		if (translations[key]) {
+			elem.textContent = translations[key];
+		}
+	});
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+	setLanguage('en');
+});

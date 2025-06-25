@@ -1,0 +1,15 @@
+{
+  "tab.main": "Accueil",
+  "tab.movies": "Mes films",
+  "tab.music": "Ma musique",
+  "tab.travel": "Voyages",
+  "tab.contact": "Contact",
+  "home.greeting": "Salut ! Je m’appelle Roman. Je suis ingénieur logiciel et je suis passionné par le progrès technologique, la science et la recherche. Depuis plusieurs années, je développe des logiciels, conçois des systèmes embarqués, automatise des processus, etc. J’ai un faible pour le reverse engineering et tout ce qui touche aux interactions bas niveau. J’aime découvrir de nouveaux outils et comprendre le fonctionnement des choses. Pour moi, le travail, ce n’est pas seulement un revenu — c’est une façon d’explorer le monde à travers la technologie. En dehors du travail, j’ai une vie plutôt active. J’aime les ordinateurs, les avions, les oiseaux, l’espace, la nature, les courses, les LEGO, le crossfit, le vélo, les voyages, la musique… et sûrement plein d’autres choses encore. Ma journée commence généralement au bureau, avec un rituel sacré : préparer mon café et prendre mon petit-déjeuner. Je tiens à le préparer moi-même ! Cela dit, je peste un peu contre l’absence de café dans notre immeuble — il faudrait vraiment qu'il y en ait un. Mais bon, la question du café mériterait à elle seule un chapitre entier. Au travail, je tape sur le clavier et les choses changent à l’écran, un peu comme dans les films de hackers. En réalité, pas du tout. Mais j’ai toujours pris plaisir à résoudre des énigmes, même si aujourd’hui, elles viennent des logiciels et non des jouets, et mon clavier est devenu bien plus stylé. Ce que j’aime surtout au bureau, c’est le contact avec les collègues, ainsi que les pauses thé, bien sûr. Après le travail, je me rends à la salle de sport pour devenir le « boss de la gym », vider ma tête, et relâcher la pression. Le sport, c'est ce qui nettoie le cerveau comme rien d'autre. Dernièrement, ce que je préfère dans la salle, ce ne sont plus les exercices eux-mêmes, mais l’équipe avec qui je m’entraîne — surtout lors des séances collectives. Les jours pairs, je m’amuse avec le français. Mon niveau est entre A1 et A2, mais j’aimerais vraiment progresser.",
+  "home.links.blog": "Blog",
+  "home.links.f1": "Blog F1",
+  "home.links.race": "Garage en sueur",
+  "movie.list.top": "Mes meilleurs films",
+  "music.list.last": "Histoire musicale",
+  "music.list.top": "Ma meilleure musique",
+  "travel.hstory": "Histoire"
+}

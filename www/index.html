@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -13,19 +12,23 @@
 <div id="page">
 	<section>
 
-		<button id="defaultOpen" class="tabLink" onclick="openTabContent('Home')">Main</button>
-		<button class="tabLink" onclick="openTabContent('MovieList')">My movie list</button>
-		<button class="tabLink" onclick="openTabContent('MusicList')">My music list</button>
-		<button class="tabLink" onclick="openTabContent('Travel')">Travel</button>
-		<button class="tabLink" onclick="openTabContent('Contact')">Contact</button>
+		<button data-i18n="tab.main" id="defaultOpen" class="tabLink" onclick="openTabContent('Home')">Main</button>
+		<button data-i18n="tab.movies" class="tabLink" onclick="openTabContent('MovieList')">My movie list</button>
+		<button data-i18n="tab.music" class="tabLink" onclick="openTabContent('MusicList')">My music list</button>
+		<button data-i18n="tab.travel" class="tabLink" onclick="openTabContent('Travel')">Travel</button>
+		<button data-i18n="tab.contact" class="tabLink" onclick="openTabContent('Contact')">Contact</button>
 
 		<div id="Home" class="tabContent">
-			<h1>Bonjour, je m'appelle Romain. Je suis ingénieur logiciel. J'aime voyager, faire du vélo, regarder la
-				formule 1, faire du crossfit et je suis un grand fan de Lego.</h1>
+			<h1 data-i18n="home.greeting"></h1>
+			<h1>
+				<li><a href="https://blog.romdegtyarev.su/" data-i18n="home.links.blog"></a></li>
+				<li><a href="https://t.me/racepage/" data-i18n="home.links.f1"></a></li>
+				<li><a href="https://racepage.romdegtyarev.org/" data-i18n="home.links.race"></a></li>
+			</h1>
 		</div>
 
 		<div id="MusicList" class="tabContent">
-			<button id="LastTracksContentButton"
+			<button data-i18n="music.list.last" id="LastTracksContentButton"
 					class="collapsible"
 					onclick="openCollapsibleContent('LastTracksContentButton',
 								'LastTracksContent',
@@ -33,7 +36,7 @@
 			</button>
 			<div id="LastTracksContent" class="collapsibleContent"></div>
 
-			<button id="TopTracksContentButton"
+			<button data-i18n="music.list.top" id="TopTracksContentButton"
 					class="collapsible"
 					onclick="openCollapsibleContent('TopTracksContentButton',
 								'TopTracksContent',
@@ -43,7 +46,7 @@
 		</div>
 
 		<div id="MovieList" class="tabContent">
-			<button id="BestMovieListCollapsible"
+			<button data-i18n="movie.list.top" id="BestMovieListCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('BestMovieListCollapsible',
 													'BestMovieListCollapsibleContent',
@@ -117,7 +120,7 @@
 		</div>
 
 		<div id="Travel" class="tabContent">
-			<button id="PlacesCollapsible"
+			<button data-i18n="travel.hstory" id="PlacesCollapsible"
 					class="collapsible"
 					onclick="openCollapsibleContent('PlacesCollapsible',
 													'PlacesCollapsibleContent',
@@ -129,6 +132,8 @@
 		<div id="Contact" class="tabContent">
 			<ul>
 				<li><a href="https://blog.romdegtyarev.su/">Blog</a></li>
+				<li><a href="https://t.me/racepage/">F1 Blog</a></li>
+				<li><a href="https://racepage.romdegtyarev.org/">Race Page</a></li>
 				<li><a href="https://github.com/romdegtyarev/">GitHub</a></li>
 				<li><a href="https://www.linkedin.com/in/romdegtyarev/">LinkedIn</a></li>
 				<li><a href="https://twitter.com/romdegtyarev/">Twitter</a></li>
@@ -146,6 +151,17 @@
 
 	<footer>
 		<p>romdegtyarev page</p>
+		<div id="lang-switcher" style="text-align: center; margin: 10px 0;">
+			<img src="flags/us.png" alt="EN" width="24" height="16"
+				 onclick="setLanguage('en')"
+				 style="cursor: pointer; margin: 0 5px;">
+			<img src="flags/ru.png" alt="RU" width="24" height="16"
+				 onclick="setLanguage('ru')"
+				 style="cursor: pointer; margin: 0 5px;">
+			<img src="flags/fr.png" alt="FR" width="24" height="16"
+				 onclick="setLanguage('fr')"
+				 style="cursor: pointer; margin: 0 5px;">
+		</div>
 	</footer>
 </div>
 </body>

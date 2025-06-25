@@ -11,6 +11,26 @@
 }
 
 /*  */
+#lang-switcher img {
+	font-size: 20px;
+	color: #E701DC;
+	background-color: #1B181A;
+	font-family: Hack, serif;
+	text-align: left;
+	padding: 20px;
+	width: auto;
+	height: auto;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+}
+
+/*  */
+#lang-switcher img:hover {
+	background-color: #51504B;
+}
+
+/*  */
 header {
     background-color: #1B181A;
     min-height: 10vh;
